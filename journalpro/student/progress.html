@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Успеваемость</title>
+    <link rel="stylesheet" type="text/css" href="../assets/style/main.css">
+    <link rel="stylesheet" type="text/css" href="../assets/style/student/progress.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+</head>
+<body class="student">
+
+
+    <!-- шапка -->
+    <header>
+        <div class="header__inner container_1">
+            <div class="header__logo">
+                <img src="../assets/img/logo.png" alt="">
+                <h1>Журнал PRO</h1>
+            </div>
+            <nav class="pages">
+                <a href="#" class="active">Успеваемость</a>
+                <a href="../student/timetable.html">Расписание</a>
+                <a href="../student/homework.html">Домашние задания</a>
+            </nav>
+            <a href="#" class="user">
+                <p>Иванов И.И.</p>
+                <div class="user_rank center">
+                    <p>Студент</p>
+                </div>
+            </a>
+        </div>
+    </header>
+
+
+    <!-- список с семестрами -->
+
+    <section class="container_1">
+       <div class="navigation">
+            <div class="select-box">
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" class="radio" id="1-semestr" name="category"/>
+                        <label for="1-semestr">1 семестр</label>
+                    </div>
+
+                    <div class="option">
+                        <input type="radio" class="radio" id="2-semestr" name="category" />
+                        <label for="2-semestr">2 семестр</label>
+                    </div>
+
+                    <div class="option">
+                        <input type="radio" class="radio" id="3-semestr" name="category" />
+                        <label for="3-semestr">3 семестр</label>
+                    </div>
+
+                    <div class="option">
+                        <input type="radio" class="radio" id="4-semestr" name="category" />
+                        <label for="4-semestr">4 семестр</label>
+                    </div>
+                </div>
+                <div class="selected">
+                    1 семестр
+                </div>
+            </div>
+       </div>
+
+
+        <!-- таблица -->
+        <section class="table-box">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan = "2" rowspan = "2" width = "283"></th>
+                        <th rowspan = "2" width = "672"></th>
+                        <th colspan = "3">Пропуски</th>
+                        <th rowspan = "2" width = "52">ИТ<br>ОГ</th>
+                    </tr>
+                    <tr>
+                        <th width = 53>У</th>
+                        <th width = 53>Б</th>
+                        <th width = 53>Н</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td width = "38">1</td>
+                        <td width = "244">Операционные системы</td>
+                        <td width = "672">
+                            <div>
+                                <div class="mark five">5</div>
+                                <div class="mark four">4</div>
+                                <div class="mark BNU">Б</div>
+                                <div class="mark zero">0</div>
+                                <div class="mark two">2</div>
+                                <div class="mark three">3</div>
+                                <div class="mark double">4,5</div>
+                                <div class="mark BNU">У</div>
+                                <div class="mark zero">0</div>
+                                <div class="mark BNU">Н</div>
+                            </div>
+                        </td>
+                        <td class="BNU__colvo">1</td>
+                        <td class="BNU__colvo">1</td>
+                        <td class="BNU__colvo">1</td>
+                        <td class="itog-1">2,64</td>
+                    </tr>
+                    <tr>
+                        <td width = "38">2</td>
+                        <td width = "244">Программирование в...</td>
+                        <td width = "672">
+                            <div>
+                                <div class="mark BNU">Б</div>
+                                <div class="mark BNU">Б</div>
+                                <div class="mark BNU">Б</div>
+                                <div class="mark zero">0</div>
+                                <div class="mark BNU">Б</div>
+                                <div class="mark zero">0</div>
+                            </div>
+                        </td>
+                        <td class="BNU__colvo"></td>
+                        <td class="BNU__colvo">4</td>
+                        <td class="BNU__colvo"></td>
+                        <td class="itog-2">0</td>
+                    </tr>
+                    <tr>
+                        <td width = "38">3</td>
+                        <td width = "244">Операционные системы</td>
+                        <td width = "672">
+                            <div>
+                                <div class="mark five">5</div>
+                                <div class="mark four">4</div>
+                                <div class="mark five">5</div>
+                                <div class="mark four">4</div>
+                                <div class="mark five">5</div>
+                                <div class="mark four">4</div>
+                                <div class="mark five">5</div>
+                                <div class="mark four">4</div>
+                                <div class="mark five">5</div>
+                                <div class="mark four">4</div>
+                                <div class="mark five">5</div>
+                                <div class="mark four">4</div>
+                                <div class="mark five">5</div>
+                                <div class="mark four">4</div>
+                            </div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="itog-3">4,5</td>
+                    </tr>
+                    <tr>
+                        <td width = "38">4</td>
+                        <td width = "244">Веб-разработка</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width = "38">5</td>
+                        <td width = "244">Программирование в...</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width = "38">6</td>
+                        <td width = "244">Операционные системы</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width = "38">7</td>
+                        <td width = "244">Веб-разработка</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width = "38">8</td>
+                        <td width = "244">Программирование в...</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width = "38">9</td>
+                        <td width = "244">Операционные системы</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width = "38">10</td>
+                        <td width = "244">Веб-разработка</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width = "38">11</td>
+                        <td width = "244">Программирование в...</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width = "38">12</td>
+                        <td width = "244">Операционные системы</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width = "38">13</td>
+                        <td width = "244">Веб-разработка</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width = "38">14</td>
+                        <td width = "244">Программирование в...</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width = "38">15</td>
+                        <td width = "244">Операционные системы</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width = "38">16</td>
+                        <td width = "244">Веб-разработка</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width = "38">17</td>
+                        <td width = "244">Программирование в...</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width = "38">18</td>
+                        <td width = "244">Операционные системы</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width = "38">19</td>
+                        <td width = "244">Веб-разработка</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width = "38">20</td>
+                        <td width = "244">Программирование в...</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width = "38">21</td>
+                        <td width = "244">Операционные системы</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width = "38">22</td>
+                        <td width = "244">Веб-разработка</td>
+                        <td width = "672"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </section>
+
+    <script src="../assets/script/script.js"></script>
+</body>
+</html>
