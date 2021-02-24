@@ -10,6 +10,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+
 .center {
     display: flex;
     align-items: center;
