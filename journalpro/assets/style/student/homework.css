@@ -104,7 +104,7 @@
 }
 
 /*All elements tbody*/
-.homework__table tbody td {
+..homework__table tbody td {
     font-weight: 500;
 }
 

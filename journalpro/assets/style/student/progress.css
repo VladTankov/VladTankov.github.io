@@ -103,55 +103,55 @@
     overflow-y: scroll;
 }
 
-table {
+.table-box table {
     width: 100%;
     border-collapse: collapse;
 }
 
-table th,td {
+.table-box table th,td {
     border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
-thead {
+.table-box thead {
     height: 69px;
     background: rgba(0, 0, 0, 0.07);
 }
 
-thead tr {
+.table-box thead tr {
     height: 35px;
     font-size: 17px;
 }
 
-tbody tr {
+.table-box tbody tr {
     height: 34px;
     font-size: 16px;
 }
 
-.mark__table tr td {
+.table-box .mark__table tr td {
     overflow-y: hidden;
 }
 
-.mark__table td:nth-child(1){
+.table-box .mark__table td:nth-child(1){
     text-align: center;
     color: rgba(0, 0, 0, 0.6);
 }
 
-.mark__table td:nth-child(2){
+.table-box .mark__table td:nth-child(2){
     padding: 8px 21px 8px 10px;
     font-weight: 500;
 }
 
-.mark__table td:nth-child(1), td:nth-child(2), td:nth-child(4), td:nth-child(5), td:nth-child(6) {
-    /*background: rgba(0, 0, 0, 0.03);*/
+.table-box .mark__table td:nth-child(1), td:nth-child(2), td:nth-child(4), td:nth-child(5), td:nth-child(6) {
+    background: rgba(0, 0, 0, 0.03);
 }
 
-td:nth-child(3) {
+.table-box td:nth-child(3) {
     padding: 0 6px;
     min-width: 672px;
     overflow-x: hidden;
 }
 
-td:nth-child(3) div{
+.table-box td:nth-child(3) div{
     display: flex;
     overflow-x: hidden;
 }
