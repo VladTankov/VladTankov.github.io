@@ -44,6 +44,11 @@ button {
     margin: 0 auto;
 }
 
+.container_progress-2 {
+    max-width: 1188px;
+    margin: 0 auto;
+}
+
 .container_1 {
     width: 100%;
     max-width: 1050px;
