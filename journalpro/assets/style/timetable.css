@@ -1,9 +1,11 @@
 
 /*=============== основной блок ===============*/
 
-nav {
+.container_2 {
   display: grid;
   grid-template-columns: 1fr 28% 1fr;
+
+  margin-bottom: 44px;
 }
 
 .nav-2 {
@@ -32,6 +34,7 @@ nav {
 }
 
 .week__name {
+  font-weight: 500;
   font-size: 20px;
   padding: 0 13px;
 }
@@ -207,9 +210,6 @@ nav {
   grid-column-gap: 60px;
   grid-row-gap: 46px;
   grid-template-columns: 1fr 1fr;
-
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .day {

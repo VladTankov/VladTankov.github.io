@@ -75,26 +75,34 @@ header {
     display: inline-flex;
 }
 
-.student .pages a {
+.student .pages .MyLink {
     padding: 0 14px;
 
     font-size: 18px;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.5);
+    /*color: rgba(255, 255, 255, 0.5);*/
+    color: #fff;
 
     transition: .2s;
 }
 
-.student .pages a:hover {
+.student .pages .MyLink:hover {
     font-size: 20px;
 }
 
-.student .pages > .active {
-    color: #fff;
+
+/*================js на аккаунте студента================*/
+
+.content__table {
+    display: none;
 }
 
-.student .pages > .active:hover {
-     font-size: 18px;
+.content__table--active {
+    display: block;
+}
+
+.MyLink--active {
+   
 }
 
 

@@ -12,7 +12,7 @@ function checkForm(event) {
 	if(login == "" || pass == "") {
 		error = "Заполните все поля";
 	} else if(login == "student" && pass == "student") {
-		window.location = 'student/progress.html';
+		window.location = 'student/StudentMain.html';
 	} else if(login == "teacher" && pass == "teacher") {
 		window.location = 'teacher/timetable.html';
 	} else {

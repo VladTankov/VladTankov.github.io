@@ -125,21 +125,22 @@ tbody tr {
     font-size: 16px;
 }
 
-tr td {
+.mark__table tr td {
     overflow-y: hidden;
 }
 
-td:nth-child(1){
+.mark__table td:nth-child(1){
     text-align: center;
     color: rgba(0, 0, 0, 0.6);
 }
 
-td:nth-child(2){
+.mark__table td:nth-child(2){
     padding: 8px 21px 8px 10px;
+    font-weight: 500;
 }
 
-td:nth-child(1), td:nth-child(2), td:nth-child(4), td:nth-child(5), td:nth-child(6) {
-    background: rgba(0, 0, 0, 0.03);
+.mark__table td:nth-child(1), td:nth-child(2), td:nth-child(4), td:nth-child(5), td:nth-child(6) {
+    /*background: rgba(0, 0, 0, 0.03);*/
 }
 
 td:nth-child(3) {

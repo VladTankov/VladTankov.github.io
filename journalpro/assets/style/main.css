@@ -1,6 +1,9 @@
 @import "root.css";
 @import "font.css";
 @import "header.css";
+@import "student/homework.css";
+@import "student/progress.css";
+@import "timetable.css";
 
 * {
     margin: 0;
@@ -33,15 +36,29 @@ button {
     border: none;
 }
 
-.container_1 {
+.container_header {
     max-width: 1188px;
     margin: 0 auto;
 }
+
+.container_progress {
+    max-width: 1188px;
+    margin: 0 auto;
+}
+
+.container_1 {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
 
 .container_2 {
     width: 100%;
     max-width: 1050px;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .container_3 {
@@ -54,8 +71,15 @@ button {
   width: 100%;
   max-width: 894px;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
+.container_5 {
+  width: 100%;
+  max-width: 894px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
 
 /*================ Кнопки успеваемости и темы ================*/
 
@@ -74,7 +98,7 @@ button {
     height: 33px;
 
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     background: #fff;
     border: var(--table_border);
     border-width: 1px 1px 0 1px;
@@ -101,6 +125,7 @@ button {
     background: #000;
     color: #fff;
 }
+
 
 
 
