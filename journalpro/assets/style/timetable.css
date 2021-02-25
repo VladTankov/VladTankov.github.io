@@ -4,8 +4,6 @@
 .container_2 {
   display: grid;
   grid-template-columns: 1fr 28% 1fr;
-
-  margin-bottom: 44px;
 }
 
 .nav-2 {
@@ -210,6 +208,8 @@
   grid-column-gap: 60px;
   grid-row-gap: 46px;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .day {

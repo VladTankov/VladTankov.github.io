@@ -1,9 +1,7 @@
 @import "root.css";
 @import "font.css";
 @import "header.css";
-@import "student/homework.css";
-@import "student/progress.css";
-@import "timetable.css";
+
 
 * {
     margin: 0;
@@ -63,7 +61,7 @@ button {
 
 .container_3 {
     width: 100%;
-    max-width: 1168px;
+    max-width: 1188px;
     margin: 0 auto;
 }
 

@@ -422,6 +422,7 @@
 }
 
 .content-table {
+  width: 1188px;
   border-collapse: collapse;
   font-family: 'Ubuntu', sans-serif;
   font-size: 17px;
