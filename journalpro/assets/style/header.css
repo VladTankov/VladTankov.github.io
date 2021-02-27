@@ -76,7 +76,8 @@ header {
 }
 
 .student .pages .MyLink {
-    padding: 0 14px;
+    box-sizing: border-box;
+    padding: 26px 14px;
 
     font-size: 18px;
     font-weight: 600;
@@ -102,7 +103,7 @@ header {
 }
 
 .MyLink--active {
-   
+    background: #3076FF;
 }
 
 
